@@ -36,15 +36,13 @@ Things you may want to cover:
 
 |ACTION|COMMANDE|
 |:---|:---|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|Afficher la table des promenades|`tp Stroll.all`|
+|Créer une ville|`City.create(city_name: "nom de la ville")`|
+|Créer un nouveau dogsitter|`Dogsitter.create(first_name: "prénom", last_name: "nom de famille", city: City.find_by(city_name: nom de la ville))`|
+|Créer un chien|`Dog.create(first_name: prénom du patient, city: City.find_by(city_name: nom de la ville))`|
+|Créer une promenade|`Stroll.create(date: YYYY-mm-DD HH:MM:SS, dogsitter: dogsitter_existant, dog: chien_existant)`|
 
-## projet
+## Projet
 Plateforme où des personnes pourraient promener les chiens des autres, en échange de cash-money.
 
 ### Models
